@@ -1,0 +1,91 @@
+fieldset {
+    background-color: #ddf9f7;
+    border: 2px solid #007eb8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddf9f7;
+    padding: 20px;
+    border: 2px solid #007eb8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+
+#timerClock {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#clock {
+    font-size: 40px;
+    color: #ff0000;
+}
+
+button#start {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+select#color {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+input#numbox {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+}
